@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common class */
+
+.flex{
+    display: flex;
+}
+
+:root{
+    --primary-color: #3A3A3A;
+    --secondary-color: #18191F;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+/* Header section */
+
+.navbar{
+    max-width: 1440px   ;
+    margin: 80px auto 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+ul{
+    gap: 2rem;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* hero container */
+
+.hero-container h1{
+    font-size: 3.25rem;
+    color: var(--primary-color);
+}
+
+
