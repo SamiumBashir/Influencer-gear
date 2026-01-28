@@ -63,9 +63,22 @@ main{
     margin: 0 auto;
 }
 
+.hero{
+    justify-content: space-between;
+}
+
+.hero-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 16px;
+    max-width: 580px;
+}
+
 .hero-container h1{
     font-size: 3.25rem;
     color: var(--primary-color);
+    line-height: 70px;
 }
 
 .hero-image{
