@@ -54,4 +54,12 @@ ul li a{
     color: var(--primary-color);
 }
 
+.hero-image{
+    background: url(/images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
 
