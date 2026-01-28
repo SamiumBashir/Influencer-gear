@@ -19,6 +19,15 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
+.btn{
+    padding: 10px 24px;
+    border-radius: 24px;
+    border: none;
+    background: #E02C6D;
+    color: #ffffff;
+    font-weight: 700;
+}
+
 /* Header section */
 
 .navbar{
@@ -48,6 +57,11 @@ ul li a{
 }
 
 /* hero container */
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 .hero-container h1{
     font-size: 3.25rem;
