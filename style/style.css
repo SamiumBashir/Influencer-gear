@@ -98,7 +98,12 @@ main{
 
 .gear{
     text-align: center;
+}
 
+.gear-title{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
 }
 
 
