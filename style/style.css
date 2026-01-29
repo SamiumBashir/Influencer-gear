@@ -93,8 +93,13 @@ main{
     flex-wrap: wrap;
     padding: 36px 62px;
     border: 1px solid #C0CCDA;
+    margin-bottom: 110px;
 }
 
+.gear{
+    text-align: center;
+
+}
 
 
 
