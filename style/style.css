@@ -106,5 +106,15 @@ main{
     margin-bottom: 30px;
 }
 
+.gear-gird-box{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+}
+
+.gear-grid-card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 
