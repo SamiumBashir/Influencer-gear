@@ -118,7 +118,7 @@ main{
     background-color: #ffffff;
     padding: 20px 10px;
     border-radius: 16px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     gap: 16px;
 }
 
@@ -132,8 +132,17 @@ main{
     line-height: 40px;
 }
 
-.card-details{
+.card-details h5{
     max-width: 196px;
+    color: gray;
+    opacity: 60%;
+}
+
+.grid-card-contain p{
+    font-size: 24px;
+    line-height: 150%;
+    color: 000000;
+    opacity: 87%;
 }
 
 
