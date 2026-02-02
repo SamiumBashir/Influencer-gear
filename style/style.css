@@ -131,10 +131,8 @@ main{
     line-height: 40px;
 }
 
-.rating{
-    color: #FB8200;
-    opacity: 60%;
-    margin-right: 8px;
+.card-details{
+    max-width: 196px;
 }
 
 
