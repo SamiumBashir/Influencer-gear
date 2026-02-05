@@ -167,6 +167,7 @@ main{
 .feature{
     align-items: center;
     gap: 96px;
+    margin-bottom: 100px;
 }
 
 .feature-content{
@@ -186,5 +187,38 @@ main{
     color: #6C6C6C;
     line-height: 28px;
     max-width: 500px;
+}
+
+
+/* footer */
+
+.footer{
+ background-color: #18191F;   
+ color: #ffffff;
+}
+
+.footer-contain{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer-content h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer-contain p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #D1D5DB;
+    line-height: 24px;
+}
+
+.footer-icon{
+    font-size: 32px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 14px;
 }
 
