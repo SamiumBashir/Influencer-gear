@@ -29,6 +29,13 @@ body{
     font-weight: 700;
 }
 
+.btn-more{
+    border: none;
+    background-color: transparent;
+    color: #E02C6D;
+    font-weight: 700;
+}
+
 /* Header section */
 
 .navbar{
@@ -144,6 +151,12 @@ main{
     line-height: 150%;
     color: 000000;
     opacity: 87%;
+}
+
+.gear-more{
+    text-align: end;
+    cursor: pointer;
+    margin-top: 20px;
 }
 
 
